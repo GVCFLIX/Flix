@@ -15,3 +15,44 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+
+
+// for digital-clock section start 
+let getdisplay = document.getElementById('display');
+
+const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// console.log(days);
+
+function startclock(){
+    let getdate = new Date();
+
+    let gethours = getdate.getHours();
+
+    let getminutes = getdate.getMinutes();
+
+    let getseconds = getdate.getSeconds();
+
+    let getday = getdate.getDay();
+
+    let getampm;
+    switch(gethours > 12){
+        case true:
+        getampm = "PM"
+        getampm = gethours - 12;
+        break;
+
+        case false:
+        getampm = "AM"
+        break;
+    }
+    let setclock = `${getampm} :${getminutes}:${getseconds} - ${days[getday]}`;
+
+    getdisplay.textContent = setclock;
+
+}
+setInterval(startclock,1000);
+//digital-clock section end
+
+
+// fade in/out section 
