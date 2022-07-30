@@ -15,10 +15,6 @@ html{
     font-family: sans-serif;
 }
 
-/* .header{
-    border-bottom: 1px solid #E2E8F0;
-} */
-
 /* navbar section start  */
 .header{
     background-color: var(--gray);
@@ -89,7 +85,7 @@ html{
     padding: 10px;
 }
 .mk-home-col2{
-    margin-left: 10px;
+    margin-top: 50px;
 }
 .mk-home-col1 h1{
     font-size: 40px;
@@ -105,8 +101,9 @@ html{
     margin: 20px 20px;
 }
 .mk-btn{
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 100px;
     padding: 10px;
     border-radius: 50px;
     transition: all 0.5s;
@@ -116,8 +113,6 @@ html{
     color: var(--red);
     border: 2px solid var(--red);
 }
-/* img casual section start  */
-
 
 
 

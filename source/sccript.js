@@ -56,4 +56,7 @@ setInterval(startclock,1000);
 //digital-clock section end
 
 
-// fade in/out section 
+// auto year copyright section
+let date = new Date();
+let year = date.getFullYear();
+documen.getElementById("autoyear").textContent = year; 
