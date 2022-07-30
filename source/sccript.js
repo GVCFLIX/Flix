@@ -44,9 +44,10 @@ function startclock(){
 
         case false:
         getampm = "AM"
+        getampm = gethours;
         break;
     }
-    let setclock = `${getampm} :${getminutes}:${getseconds} - ${days[getday]}`;
+    let setclock = `${getampm}:${getminutes}:${getseconds} - ${days[getday]}`;
 
     getdisplay.textContent = setclock;
 
