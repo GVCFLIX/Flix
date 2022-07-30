@@ -90,6 +90,12 @@ html{
     display: flex;
 }
 /* for flix project section  */
+.mk-home-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .mk-btn{
     display: flex;
     justify-content: center;
