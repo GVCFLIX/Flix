@@ -85,8 +85,29 @@ html{
 .mk-home-col1 p , .mk-home-col2 p{
     font-size: 25px;
 } 
-
-
+/* for social section  */
+.mk-social{
+    display: flex;
+}
+/* for flix project section  */
+.mk-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mk-remake-btn{
+    padding: 10px;
+    color: var(--red);
+    background: var(--blu);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.mk-remake-btn:hover{
+    color: black;
+    background: var(--gray);
+}
 
 
 
