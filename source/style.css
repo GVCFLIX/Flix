@@ -86,7 +86,10 @@ html{
     color: #000;
 }
 .mk-home-col1{
-    padding: 15px;
+    padding: 10px;
+}
+.mk-home-col2{
+    margin-left: 10px;
 }
 .mk-home-col1 h1{
     font-size: 40px;
@@ -113,7 +116,7 @@ html{
     color: var(--red);
     border: 2px solid var(--red);
 }
-
+/* img casual section start  */
 
 
 
