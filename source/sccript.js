@@ -59,4 +59,5 @@ setInterval(startclock,1000);
 // auto year copyright section
 let date = new Date();
 let year = date.getFullYear();
-documen.getElementById("autoyear").textContent = year; 
+console.log(date,year);
+document.getElementById("autoyear").textContent = year; 
